@@ -1,0 +1,117 @@
+* {
+    margin-left: 7rem;
+}
+
+.carRace {
+    width: 106%;
+    height: 104%;
+    margin-left: -6rem;
+    margin-top: -18rem;
+    object-fit: fill;
+    position: relative;
+    z-index: 0;
+}
+
+.pressStart {
+    position: absolute;
+    z-index:1;
+    top: 20%;
+    left: 26%;
+    width: 30%;
+    height: 40%;
+    cursor: pointer;
+}
+
+#start,
+.end {
+    margin-left: -400px;
+    margin-top: 261px;
+    color: rgb(86, 237, 245);
+    text-align: center;
+    font-size: 50px;
+}
+
+.score {
+    margin-left: 50%;
+
+
+}
+
+.lane {
+    background-color: gray;
+    height: 100%;
+    width: 120px;
+    display: inline-block;
+    text-align: center;
+    z-index: 0;
+    padding-top: 20px;
+    margin-left: auto;
+}
+
+.car {
+    width: 80px;
+    display: block;
+    z-index: 1;
+    margin: auto;
+    position: absolute;
+    bottom: 20;
+    margin-left: 20px;
+}
+
+.obstacle {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    border: 5px solid white;
+    position: relative;
+}
+
+
+.point {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 40px;
+    position: relative;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: rgb(40, 40, 150);
+}
+
+#blue-car {
+    width: 68px;
+    height: 126px;
+}
+
+#red-car {
+    width: 78px;
+    height: 126px;
+}
+
+/* end */
+.end {
+
+    color: rgb(236, 54, 72);
+
+}
+
+.button {
+    font-size: larger;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    background-color: #aba7a7;
+    /* border-style: none; */
+}
+
+.button:hover {
+    color: black;
+    background-color: white;
+    border-style: solid;
+}
